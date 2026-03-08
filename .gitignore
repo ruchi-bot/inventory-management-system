@@ -1,0 +1,59 @@
+# Java / Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.mvn/
+
+# Spring Boot
+application-local.properties
+application-prod.properties
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/build/
+frontend/.env.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sql.backup
+
+# Sensitive Data
+*.pem
+*.key
+.env
+.env.local
+.env.production
+
+# Build artifacts
+*.zip
+*.tar.gz

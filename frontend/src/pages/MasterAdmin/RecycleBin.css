@@ -1,0 +1,134 @@
+/* RecycleBin Specific Styles - uses Dashboard.css as base */
+
+.page-container {
+  animation: fadeIn 0.3s ease;
+}
+
+.info-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  background: #fff3cd;
+  border: 1px solid #ffc107;
+  border-radius: 10px;
+  color: #856404;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.info-badge svg {
+  font-size: 18px;
+}
+
+.deleted-at {
+  color: #718096;
+  font-size: 14px;
+}
+
+.text-gray {
+  color: #a0aec0;
+  font-style: italic;
+}
+
+.green {
+  color: #38a169;
+  font-weight: 600;
+}
+
+.orange {
+  color: #dd6b20;
+  font-weight: 600;
+}
+
+.red {
+  color: #e53e3e;
+  font-weight: 600;
+}
+
+/* Legend Box */
+.legend-box {
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-top: 24px;
+}
+
+.legend-box h3 {
+  margin: 0 0 16px 0;
+  color: #2d3748;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.legend-items {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #4a5568;
+}
+
+.legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.legend-dot.green {
+  background: #38a169;
+}
+
+.legend-dot.orange {
+  background: #dd6b20;
+}
+
+.legend-dot.red {
+  background: #e53e3e;
+}
+
+/* Empty State */
+.empty-state {
+  background: white;
+  padding: 64px 32px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.empty-icon {
+  font-size: 64px;
+  color: #cbd5e0;
+  margin: 0 auto 24px;
+}
+
+.empty-state h2 {
+  font-size: 24px;
+  color: #4a5568;
+  margin: 0 0 12px 0;
+}
+
+.empty-state p {
+  color: #a0aec0;
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Loading State */
+.loading {
+  text-align: center;
+  padding: 48px;
+  color: #718096;
+  font-size: 16px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}

@@ -1,0 +1,282 @@
+/* RecycleBin Specific Styles - uses Dashboard.css as base */
+
+.page-container {
+  animation: fadeIn 0.3s ease;
+}
+
+.info-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  background: #fff3cd;
+  border: 1px solid #ffc107;
+  border-radius: 10px;
+  color: #856404;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.info-badge svg {
+  font-size: 18px;
+}
+
+.deleted-at {
+  color: #718096;
+  font-size: 14px;
+}
+
+.text-gray {
+  color: #a0aec0;
+  font-style: italic;
+}
+
+.text-green {
+  color: #38a169;
+  font-weight: 600;
+}
+
+.text-orange {
+  color: #dd6b20;
+  font-weight: 600;
+}
+
+.text-red {
+  color: #e53e3e;
+  font-weight: 600;
+}
+
+.green {
+  color: #38a169;
+}
+
+.orange {
+  color: #dd6b20;
+}
+
+.red {
+  color: #e53e3e;
+}
+
+/* Legend Box */
+.legend-box {
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-top: 24px;
+}
+
+.legend-box h3 {
+  margin: 0 0 16px 0;
+  color: #2d3748;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.legend-items {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #4a5568;
+}
+
+.legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.legend-dot.green {
+  background: #38a169;
+}
+
+.legend-dot.orange {
+  background: #dd6b20;
+}
+
+.legend-dot.red {
+  background: #e53e3e;
+}
+
+/* Empty State */
+.empty-state {
+  background: white;
+  padding: 64px 32px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.empty-icon {
+  font-size: 64px;
+  color: #cbd5e0;
+  margin: 0 auto 24px;
+}
+
+.empty-state h2 {
+  font-size: 24px;
+  color: #4a5568;
+  margin: 0 0 12px 0;
+}
+
+.empty-state p {
+  color: #a0aec0;
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Loading State */
+.loading {
+  text-align: center;
+  padding: 48px;
+  color: #718096;
+  font-size: 16px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Button Success State */
+.btn-success {
+  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  color: white;
+}
+
+.btn-success:hover {
+  background: linear-gradient(135deg, #0f8275 0%, #2dd96a 100%);
+}
+
+/* Table Container */
+.table-container {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table thead {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.data-table th {
+  padding: 16px 20px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: white;
+}
+
+.data-table th:last-child {
+  text-align: center;
+}
+
+.data-table tbody tr {
+  border-bottom: 1px solid #e2e8f0;
+  transition: background 0.2s;
+}
+
+.data-table tbody tr:hover {
+  background: #f7fafc;
+}
+
+.data-table td {
+  padding: 16px 20px;
+  font-size: 14px;
+  color: #4a5568;
+}
+
+.data-table td:last-child {
+  text-align: center;
+}
+
+/* Action Buttons */
+.action-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-icon {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  transition: all 0.2s;
+  min-width: 36px;
+  min-height: 36px;
+}
+
+.btn-icon:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-icon.btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.btn-icon.btn-primary:hover {
+  background: linear-gradient(135deg, #5568d3 0%, #643a8b 100%);
+}
+
+.btn-icon.btn-danger {
+  background: linear-gradient(135deg, #ee0979 0%, #ff6a00 100%);
+  color: white;
+}
+
+.btn-icon.btn-danger:hover {
+  background: linear-gradient(135deg, #d50862 0%, #e65b00 100%);
+}
+
+.btn-icon.btn-success {
+  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  color: white;
+}
+
+.btn-icon.btn-success:hover {
+  background: linear-gradient(135deg, #0f8275 0%, #2dd96a 100%);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .page-header {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .legend-items {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .data-table {
+    font-size: 13px;
+  }
+
+  .data-table th,
+  .data-table td {
+    padding: 12px 16px;
+  }
+}
